@@ -1,7 +1,30 @@
 aid: medicaldl
-name: medicaldl
-description: medicaldl is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/medicaldl.png
+name: Zhuhai DL Biotech (medicaldl)
+description: >-
+  Zhuhai DL Biotech Co., Ltd. (Zhuhai Deer Bioengineering Co., Ltd., brand "DL"
+  / 迪尔), founded in 2003 and based in Zhuhai, China, is a high-tech in-vitro
+  diagnostics (IVD) enterprise specializing in the R&D, manufacturing, and
+  service of microbial diagnostic instruments and reagents. Its product lines
+  cover automated blood culture systems, automated bacterial identification and
+  antimicrobial susceptibility testing (ID/AST), MALDI-TOF mass spectrometry
+  microbial identification, automated staining, fluorescence immunoassay, and
+  molecular diagnostics, serving over 5,000 clinical healthcare institutions
+  across more than 50 countries. Surfaced as a portfolio company of Qiming
+  Venture Partners. Enrichment pass found no public API, developer portal, SDK,
+  or software integration surface — this is a diagnostic-hardware and reagent
+  business, not a software/API provider.
 url: https://raw.githubusercontent.com/api-evangelist/medicaldl/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- In Vitro Diagnostics
+- Microbiology
+- Medical Devices
+- Diagnostics
+- Healthcare
+- Biotechnology
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +53,12 @@ maintainers:
 common:
 - type: Website
   url: https://medicaldl.com
+- type: Website
+  url: https://en.medicaldl.com/
+- type: About
+  url: https://en.medicaldl.com/about/1.html
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
